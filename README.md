@@ -72,18 +72,3 @@ java -cp "src" Client
 - The client connects to `localhost` port `8000`.
 - If you use an IDE like IntelliJ IDEA, keep `.idea/` and `*.iml` out of the repository.
 
-## Git upload advice
-
-The repository is ready for GitHub. Make sure to commit:
-
-- `src/`
-- `README.md`
-- `libs/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar`
-- any required image assets in `images/`
-
-Avoid committing:
-
-- `.idea/`
-- `out/`
-- `*.iml`
-- compiled `.class` files
